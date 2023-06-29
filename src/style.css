@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+
+:root {
+  --bg-color: #081b29;
+  --second-bg-color: #112e42;
+  --text-color: #ededed;
+  --main-color: #00abf0;
+  --navigation-height: 70px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
